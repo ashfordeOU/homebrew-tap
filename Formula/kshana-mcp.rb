@@ -2,27 +2,27 @@
 class KshanaMcp < Formula
   desc "Kshana PNT-resilience simulator as an MCP server (advisory, not type-approved navigation equipment)"
   homepage "https://kshana.dev"
-  version "0.35.0"
+  version "0.36.0"
   license "AGPL-3.0-only"
 
   on_macos do
     on_arm do
-      url "https://github.com/ashfordeOU/kshana/releases/download/v0.35.0/kshana-mcp-aarch64-apple-darwin"
-      sha256 "8527ae706a6707d9cd8de5ae321e6202a35736d2bdfd8b50e527366805289dd4"
+      url "https://github.com/ashfordeOU/kshana/releases/download/v0.36.0/kshana-mcp-aarch64-apple-darwin"
+      sha256 "c17af1cd1749f0ded657d5611bbe04954eb8cccab695bc98b6627275de9ff3a6"
     end
     on_intel do
-      url "https://github.com/ashfordeOU/kshana/releases/download/v0.35.0/kshana-mcp-x86_64-apple-darwin"
-      sha256 "f4e2cf534b507cc446e15f159d0b26c6b0c7e7e8720eb88964cf4c988916092b"
+      url "https://github.com/ashfordeOU/kshana/releases/download/v0.36.0/kshana-mcp-x86_64-apple-darwin"
+      sha256 "87885cafd1be6298d02ef05036c62ac17ec518df5ecbc109bdf348e1a09d5732"
     end
   end
   on_linux do
     on_arm do
-      url "https://github.com/ashfordeOU/kshana/releases/download/v0.35.0/kshana-mcp-aarch64-unknown-linux-gnu"
-      sha256 "2d3cfd834b06b7ef606ad8e66292ca459fa849c269f38278dbb0f13e455fe613"
+      url "https://github.com/ashfordeOU/kshana/releases/download/v0.36.0/kshana-mcp-aarch64-unknown-linux-gnu"
+      sha256 "dfe22234da16d633bab1656bb72633df35c3598d74479af0d74fd98884ed5e8e"
     end
     on_intel do
-      url "https://github.com/ashfordeOU/kshana/releases/download/v0.35.0/kshana-mcp"
-      sha256 "679fa2c332828453838bfb8554c9ebf617cc10c32348bfdc7ddac9e5d02dcf8c"
+      url "https://github.com/ashfordeOU/kshana/releases/download/v0.36.0/kshana-mcp"
+      sha256 "87db5beadee031d567da40c4068721f3195718029ca7a568879ad9cfd3ac6677"
     end
   end
 
